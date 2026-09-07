@@ -1,14 +1,19 @@
 BÁO CÁO ĐỒ ÁN HỆ THỐNG NHÚNG - YOCTO PROJECT (MÔ PHỎNG QEMU - TUẦN 4)
 
 Tên đề tài: Biên dịch Hệ điều hành nhúng với Yocto Project trên môi trường giả lập QEMU
+
 Tên nhóm: Group 8
+
 Giảng viên hướng dẫn: Thầy Huỳnh Hoàng Hà
+
 Thành viên thực hiện:
 1. Nguyễn Vũ Lâm - 24161105
 2. Nguyễn Phúc Lộc - 24161109
 3. Phan Thị Như Ý - 24161155
 4. Nguyễn Văn Quý - 24161128
 5. Trần Vạn Phước - 24161126
+
+
 1.1. Yêu cầu hệ thống (Host System)
 Để biên dịch Yocto Project không bị lỗi, máy chủ (Host System) cần đáp ứng các yêu cầu tối thiểu sau:
 - Hệ điều hành: Ubuntu 22.04 LTS / Ubuntu 24.04 LTS (64-bit)
