@@ -66,4 +66,7 @@ $ bitbake core-image-minimal
 Sau khi tiến trình biên dịch hoàn tất 100%, tiến hành chạy mô phỏng giao diện hệ điều hành bằng QEMU:
 
 $ runqemu qemux86-64
+### Minh chứng chạy mô phỏng QEMU
+![Kết quả chạy QEMU](qemu_result.png)
+
 	
