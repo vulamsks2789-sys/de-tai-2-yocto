@@ -1,9 +1,10 @@
 BÁO CÁO ĐỒ ÁN HỆ THỐNG NHÚNG - YOCTO PROJECT (MÔ PHỎNG QEMU - TUẦN 4)
 
 Tên đề tài: Biên dịch Hệ điều hành nhúng với Yocto Project trên môi trường giả lập QEMU
-Tên nhóm: Group 8
+...Tên nhóm: Group 8
 Giảng viên hướng dẫn: Thầy Huỳnh Hoàng Hà
 Thành viên thực hiện:
+
 1. Nguyễn Vũ Lâm - 24161105
 2. Nguyễn Phúc Lộc - 24161109
 3. Phan Thị Như Ý - 24161155
