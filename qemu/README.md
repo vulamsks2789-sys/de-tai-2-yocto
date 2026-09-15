@@ -1,6 +1,6 @@
 BÁO CÁO ĐỒ ÁN HỆ THỐNG NHÚNG - YOCTO PROJECT (MÔ PHỎNG QEMU - TUẦN 4)
 
-Tên đề tài: Biên dịch Hệ điều hành nhúng với Yocto Project trên RAS PI #
+Tên đề tài: Biên dịch Hệ điều hành nhúng với Yocto Project trên RAS PI 3
 
 Tên nhóm: Group 8
 
