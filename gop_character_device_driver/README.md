@@ -106,5 +106,5 @@ ls -l /dev/my_driver
 echo "Hello Driver" > /dev/my_driver 
 (Lệnh này sẽ test hàm write() của driver). 
 
-![Test Read Write Driver](driver_read_write(2).png)
+![Test Write Driver](driver_write.png)
 
