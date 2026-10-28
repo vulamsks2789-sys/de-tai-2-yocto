@@ -1,3 +1,24 @@
+BÁO CÁO ĐỒ ÁN HỆ THỐNG NHÚNG - YOCTO PROJECT (CÁCH NẠP FILE VÔ PI 3)
+
+Tên đề tài: Biên dịch Hệ điều hành nhúng với Yocto Project trên môi trường RAS PI 3
+
+Tên nhóm: Group 8
+
+Giảng viên hướng dẫn: Thầy Huỳnh Hoàng Hà
+
+Thành viên thực hiện:
+
+1. Nguyễn Phúc Lộc - 24161109
+
+2. Nguyễn Vũ Lâm - 24161105
+
+3. Phan Thị Như Ý - 24161155
+
+4. Nguyễn Văn Quý - 24161128
+
+5. Trần Vạn Phước - 24161126
+
+
 Dùng lệnh cp (Copy) trong Terminal
 Tại thư mục ~/yocto/poky/build-rp:
 cp tmp/deploy/images/raspberrypi3/core-image-minimal-raspberrypi3.rootfs.wic.bz2 ~/Desktop/
