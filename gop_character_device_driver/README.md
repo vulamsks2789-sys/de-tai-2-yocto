@@ -17,49 +17,25 @@ Thành viên thực hiện:
 4. Nguyễn Văn Quý - 24161128
 
 5. Trần Vạn Phước - 24161126
-
-
-
-
-
-
-
+   
 1. Quay về thư mục gốc poky:
  cd ~/yocto/poky
 
 2. Nạp môi trường Yocto (trỏ vào thư mục build-rpi của bạn): source oe-init-build-env build-rpi
 
-
-
 3.Tạo layer mới (đặt ở thư mục ngoài để không bị lẫn vào thư mục build): bitbake-layers create-layer ../meta-mylayer
-
 4.Thêm layer vừa tạo vào bblayers.conf: bitbake-layers add-layer ../meta-mylayer 
-
-
 5.Tạo thư mục lưu trữ recipe:
 mkdir -p ../meta-mylayer/recipes-kernel/my-driver/files 
-
-
-
 6.Copy file code C vào recipe:
 cp ~/my_driver/my_driver.c ../meta-mylayer/recipes-kernel/my-driver/files/ 
-
-
-
 7.Tạo file COPYING kiểm tra License 
 echo "GPLv2" > ../meta-mylayer/recipes-kernel/my-driver/files/COPYING 
-
-
-
 8.Tạo file Makefile cho Yocto:
 nano ../meta-mylayer/recipes-kernel/my-driver/files/Makefile
 ( Dán nội dung vào )
-
-
 obj-m := my_driver.o
-
 SRC := $(shell pwd)
-
 all:
 	$(MAKE) -C (KERNELSRC)M=(SRC) modules
 
