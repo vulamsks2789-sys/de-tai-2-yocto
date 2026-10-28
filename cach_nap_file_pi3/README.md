@@ -1,4 +1,3 @@
-CÁCH NẠP FILE VÔ PI 3
 Dùng lệnh cp (Copy) trong Terminal
 Tại thư mục ~/yocto/poky/build-rp:
 cp tmp/deploy/images/raspberrypi3/core-image-minimal-raspberrypi3.rootfs.wic.bz2 ~/Desktop/
