@@ -97,7 +97,7 @@ ls -l /dev/my_driver
 13.Đọc dữ liệu từ Driver: cat /dev/my_driver
 (Nếu driver có hàm read(), lệnh này sẽ in ra chuỗi dữ liệu mà driver trả về). 
 
-![Test Read Write Driver](driver_read_write.png)
+![Test Write Driver](driver_write.png)
 
 
 
