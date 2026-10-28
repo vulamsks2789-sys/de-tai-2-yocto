@@ -79,13 +79,11 @@ KERNEL_MODULE_AUTOLOAD += "my_driver"
  Bắt đầu build lại OS Yocto: bitbake core-image-minimal 
 
 
-
-
 			
 11.Kiểm tra log của Driver: dmesg | grep my_driver
 (Lệnh này giúp xem lại toàn bộ thông báo printk mà driver của bạn vừa ghi vào Kernel log). 
 
-
+![Log Kernel Module](driver_dmesg.png)
 
 
 12.Kiểm tra File Node của Driver trong /dev:
@@ -93,12 +91,13 @@ KERNEL_MODULE_AUTOLOAD += "my_driver"
 ls -l /dev/my_driver
 (Kiểm tra xem file thiết bị đã được tạo tự động chưa. Nếu thấy hiện thông báo file với chữ c ở đầu dòng, ví dụ crw-rw---- ..., tức là Character Device đã tạo thành công).
 
-
+![Check Device Node](driver_dev_node.png)
 
 
 13.Đọc dữ liệu từ Driver: cat /dev/my_driver
 (Nếu driver có hàm read(), lệnh này sẽ in ra chuỗi dữ liệu mà driver trả về). 
 
+![Test Read Write Driver](driver_read_write.png)
 
 
 
@@ -107,7 +106,5 @@ ls -l /dev/my_driver
 echo "Hello Driver" > /dev/my_driver 
 (Lệnh này sẽ test hàm write() của driver). 
 
-### 📸 Minh chứng kiểm thử Character Device Driver
-![Log Kernel Module](driver_dmesg.png)
-![Check Device Node](driver_dev_node.png)
-![Test Read Write Driver](driver_read_write.png)
+![Test Read Write Driver](driver_read_write(2).png)
+
