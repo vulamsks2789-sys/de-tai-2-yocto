@@ -106,3 +106,8 @@ ls -l /dev/my_driver
 14.Ghi dữ liệu vào Driver: 
 echo "Hello Driver" > /dev/my_driver 
 (Lệnh này sẽ test hàm write() của driver). 
+
+### 📸 Minh chứng kiểm thử Character Device Driver
+![Log Kernel Module](driver_dmesg.png)
+![Check Device Node](driver_dev_node.png)
+![Test Read Write Driver](driver_read_write.png)
