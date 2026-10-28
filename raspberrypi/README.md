@@ -1,4 +1,4 @@
-BÁO CÁO ĐỒ ÁN HỆ THỐNG NHÚNG - YOCTO PROJECT (Xác minh và Lưu trữ File Thành phẩm OS Image - TUẦN 5)
+BÁO CÁO ĐỒ ÁN HỆ THỐNG NHÚNG - YOCTO PROJECT (Xác minh và Lưu trữ File Thành phẩm OS Image )
 
 Tên đề tài: Biên dịch Hệ điều hành nhúng với Yocto Project trên môi trường RAS PI 3
 
