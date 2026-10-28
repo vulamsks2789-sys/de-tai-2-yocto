@@ -19,6 +19,11 @@ Thành viên thực hiện:
 5. Trần Vạn Phước - 24161126
 
 
+
+
+
+
+
 1. Quay về thư mục gốc poky:
  cd ~/yocto/poky
 
